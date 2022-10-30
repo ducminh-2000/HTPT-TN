@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>Web Application</display-name>
+    <servlet>
+        <servlet-name>SinhVienServlet</servlet-name>
+        <servlet-class>com.mycompany.htpt.servlet.SinhVienServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>KhoaServlet</servlet-name>
+        <servlet-class>com.mycompany.htpt.servlet.KhoaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewServlet</servlet-name>
+        <servlet-class>com.mycompany.htpt.servlet.NewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SinhVienServlet</servlet-name>
+        <url-pattern>/SinhVienServlet/</url-pattern>
+        <url-pattern>/SinhVienServlet/new</url-pattern>
+        <url-pattern>/SinhVienServlet/list</url-pattern>
+        <url-pattern>/SinhVienServlet/edit</url-pattern>
+        <url-pattern>/SinhVienServlet/delete</url-pattern>
+        <url-pattern>/SinhVienServlet/insert</url-pattern>
+        <url-pattern>/SinhVienServlet/update</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>KhoaServlet</servlet-name>
+        <url-pattern>/KhoaServlet</url-pattern>
+        <url-pattern>/KhoaServlet/new</url-pattern>
+        <url-pattern>/KhoaServlet/list</url-pattern>
+        <url-pattern>/KhoaServlet/edit</url-pattern>
+        <url-pattern>/KhoaServlet/delete</url-pattern>
+        <url-pattern>/KhoaServlet/insert</url-pattern>
+        <url-pattern>/KhoaServlet/update</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewServlet</servlet-name>
+        <url-pattern>/NewServlet</url-pattern>
+    </servlet-mapping>
+    <error-page>
+        <exception-type>java.lang.Exception</exception-type>
+        <location>/Error.jsp</location>
+    </error-page>
+</web-app>

@@ -1,0 +1,13 @@
+com\mycompany\htpt\servlet\KhoaServlet.class
+com\mycompany\htpt\model\Khoa.class
+com\mycompany\htpt\servlet\SinhVienServlet.class
+com\mycompany\htpt\servlet\NewServlet.class
+com\mycompany\htpt\DAO\KhoaDAO.class
+com\mycompany\htpt\model\SinhVien.class
+com\mycompany\htpt\model\TruongHoc.class
+com\mycompany\htpt\DAO\TruongHocDAO.class
+com\mycompany\htpt\BookDAO.class
+com\mycompany\htpt\Book.class
+com\mycompany\htpt\DAO\DAO.class
+com\mycompany\htpt\DAO\SinhVienDAO.class
+com\mycompany\htpt\ControllerServlet.class
